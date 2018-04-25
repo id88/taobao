@@ -8,9 +8,8 @@
 }
 
 html,body{
-    /*width: 100%;*/
+    width: 100%;
     height: 1000px;
-    overflow-x: hidden;
 }
 
 body {
@@ -23,78 +22,245 @@ body {
     height: 100%;
 }
 
-.wrapper .top-nav-wrap{
-    width: 1688px;
-    height: 36px;
+.top-nav-wrap{
+    width: 100%;
+    height: 35px;
     background-color: #f5f5f5;
 }
-.wrapper .top-nav-wrap .top-nav{
-    width: 1190px;
+.top-nav-wrap .top-nav{
+    /*width: 1190px;*/
+    width: 1090px;
     height: 35px;
     margin: 0 auto; /*水平居中*/
-    /*border: 1px solid black;*/
     /*background-color: #fcc;*/
     /*font-size: 12px;*/
     /*line-height: 35px;*/
 }
 
-.wrapper .top-nav-wrap .top-nav .top-nav-left{
+.top-nav-wrap .top-nav .top-nav-left{
     float: left;
     /*padding: 0 5px;*/
 }
 
-.wrapper .top-nav-wrap .top-nav .top-nav-right{
+.top-nav-wrap .top-nav .top-nav-right{
     float: right;
     /*padding: 0 5px;*/
 }
 
-.wrapper .top-nav-wrap .top-nav li{
+.top-nav-wrap .top-nav li{
     /*li是块级元素，这里将其转成行级元素*/
     display: inline-block;
-    /*margin*/: 0 6px;
+    /*margin: 0 6px;*/
     padding: 0 6px;
 }
-.wrapper .top-nav-wrap .top-nav li a,
-.wrapper .top-nav-wrap .top-nav li a span{
+.top-nav-wrap .top-nav li a,
+.top-nav-wrap .top-nav li a span{
     color: #6C6C6C;
     font-size: 12px;
     line-height: 35px;
 }
-.wrapper .top-nav-wrap .top-nav li a:hover,
-.wrapper .top-nav-wrap .top-nav li a span:hover,
-.wrapper .top-nav-wrap .top-nav li .login{
+.top-nav-wrap .top-nav li a:hover,
+.top-nav-wrap .top-nav li a span:hover,
+.top-nav-wrap .top-nav li .login{
     color: #f40;
 }
-.wrapper .top-nav-wrap .top-nav .china-span{
+.top-nav-wrap .top-nav .china-span{
     color: #3c3c3c;
     font-size: 12px;
     line-height: 35px;
 }
 
-.wrapper .top-nav-wrap .top-nav .verticalLine{
+.top-nav-wrap .top-nav .verticalLine{
     color: #ddd;
     line-height: 35px;
 }
 
 /*小图标*/
-.wrapper .top-nav-wrap .top-nav .site-nav-icon{
+.top-nav-wrap .top-nav .site-nav-icon{
     display: inline-block;
     width: 6px;
     height: 3px;
     vertical-align: middle; /*垂直方向上中间对齐*/
     background-size: 100% 100%;
-    background-image: 
+    /*background-image: */
     border: 1px solid red;
 }
 /*向下的小箭头*/
-.wrapper .top-nav-wrap .top-nav .site-nav-arrow{
+.top-nav-wrap .top-nav .site-nav-arrow{
     display: inline-block;
     width: 6px;
     height: 3px;
     vertical-align: middle; /*垂直方向上中间对齐*/
     background-size: 100% 100%;
-    background-image: 
+    /*background-image: */
     border: 1px solid #ddd;
 }
 
+/*顶部导航栏结束*/
 
+
+
+.search-nav-wrap{
+    width: 100%;
+    height: 97px;
+    padding-top: 24px;
+    background-color: #FFF;
+}
+.search-nav-wrap .search-nav{
+    /*width: 1190px;*/
+    width: 1090px;
+    height: 88px;
+    margin: 0 auto;
+    /*vertical-align: middle;无效*/
+}
+
+.search-nav-wrap .search-nav .search-nav-logo{
+    width: 142px;
+    height: 72px;
+    background-color: #cfc;
+    background-image: url('images/taobao-logo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*变成行内元素，在垂直中间对齐*/
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-nav-wrap .search-nav .search-nav-box{
+    width: 630px;
+    height: 87px;
+    /*变成行内元素，在垂直中间对齐*/
+    display: inline-block;
+    vertical-align: middle;
+    /*background-color: #ccf;*/
+    margin: 0 auto;
+    /*不能居中*/
+    margin-left: 70px;
+}
+
+.search-nav-wrap .search-nav .search-nav-box .search-box-bd{
+    width: 630px;
+    height: 62px;
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-bd .search-box-triggers{
+    height: 22px;
+    padding-left: 20px;
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-bd .search-box-triggers li{
+    float: left;
+    width: 36px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    margin-right: 4px;
+    color: #F40;
+    font-size: 12px;
+}
+
+.search-nav-wrap .search-nav .search-nav-box .search-box-bd .search-box-triggers li:hover{
+    background-color: #FFEEE5;
+    color: #FF5400;
+}
+
+.search-nav-wrap .search-nav .search-nav-box .search-box-bd .search-box-triggers .select{
+    background: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 6px 6px 0px 0px;
+}
+
+
+.search-nav-wrap .search-nav .search-nav-box .search-box-bd .search-box-searchPanel{
+    width: 630px;
+    height: 40px;
+    /*border: 1px solid red;*/
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-bd .search-box-searchPanel .search-fields{
+    width: 556px;
+    height: 38px;
+    display: inline-block;
+    float: left;
+    border: 2px solid #ff5000;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-bd .search-box-searchPanel .search-button{
+    background: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    width: 74px;
+    height: 42px;
+    display: inline-block;
+    text-align: center;
+    line-height: 42px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    margin-left: -2px;
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-bd .search-box-searchPanel input{
+    padding-left: 15px;
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-bd .search-box-searchPanel input:focus{
+    outline: none; /*去掉默认的蓝色边框*/
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-footer{
+    width: 630px;
+    height: 25px;
+    /*border: 1px solid red;*/
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-footer .search-hotWord{
+    height: 25px;
+    display: inline-block;
+    padding-left: 5px;
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-footer .search-hotWord a{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #666;
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-footer .search-hotWord a:hover{
+    color: #ff5000;
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-footer .search-hotMore{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #666;
+    display: inline-block;
+    /*margin-left: 5px;*/
+    float: right;
+    margin-right: 5px;
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-footer .search-hotMore a{
+    color: #666;
+}
+.search-nav-wrap .search-nav .search-nav-box .search-box-footer .search-hotWord .select,
+.search-nav-wrap .search-nav .search-nav-box .search-box-footer .search-hotMore a:hover{
+    color: #ff5000;
+}
+.search-nav-wrap .search-nav .search-nav-erweima{
+    width: 76px;
+    height: 90px;
+    /*background-color: #fcc;*/
+    border: 1px solid red;
+    /*变成行内元素，在垂直中间对齐*/
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+.search-nav-wrap .search-nav .search-nav-erweima span{
+    font-size: 12px;
+    color: #f40;
+    text-align: center;
+    /*不能居中*/
+    margin: 12px;
+}
+.search-nav-wrap .search-nav .search-nav-erweima img{
+    display: block;
+    margin-left: 6px;
+    width: 62px;
+    height: 62px;
+}
