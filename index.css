@@ -403,16 +403,67 @@ body {
 }
 .main .main-inner .inner-right img{
     width: 164px;
-    height: 256px;
+    height: 240px;
 }
+.main .main-inner .inner-right span{
+    display: inline-block;
+    height: 30px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+
+
+/*主屏底部，淘宝头条*/
 .main .main-foot{
     width: 890px;
     height: 100px;
-    background-color: #ccf;
+    background-color: #fff;
     display: inline-block;
     float: left;
     margin: 5px 5px;
 }
+.main-foot .foot-l img{
+    height: 70px;
+    float: left;
+    padding: 15px 17px;
+}
+.main-foot .foot-r img{
+    height: 70px;
+    float: left;
+    /*距顶部15，左边22*/
+    padding: 15px 22px;
+}
+.main-foot .foot-r .toutiao-text{
+    float: left;
+    width: 400px;
+    /*border: 1px solid red;*/
+    margin-top: 14px;
+}
+.main-foot .foot-r .toutiao-text li{
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    /*border: 1px solid green;*/
+}
+.main-foot .foot-r .toutiao-text h4:hover{
+    color: #ff5000;
+}
+.main-foot .foot-r .more{
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+    font-size: 14px;
+}
+.main-foot .foot-r .more a{
+    color: #808080  ;
+}
+.main-foot .foot-r a:hover{
+    color: #ff5000;
+}
+
+
 
 
 
@@ -500,3 +551,130 @@ body {
 .tipoff-wrap a{
     color: #f40;
 }
+
+
+
+
+/*公告*/
+.notice-wrap .notice-hd{
+    width: 292px;
+    height: 24px;
+    position: relative;
+    margin-top: 4px;
+    overflow: hidden;
+    margin-right: -2px;
+    padding: 0 8px;
+}
+.notice-wrap .notice-hd li a{
+    float: left;
+    line-height: 20px;
+    width: 34px;
+    text-align: center;
+    margin: 0px 9px;
+    font-size: 12px;
+    color: #3C3C3C;
+}
+.notice-wrap .notice-hd .select{
+    font-weight: 700;
+    border-bottom: 2px solid #F40;
+}
+.notice-wrap .notice-hd a:hover{
+    padding: 0;
+    font-weight: 700;
+    border-bottom: 2px solid #F40;
+    color: #F40;
+}
+/*公告底部*/
+.notice-wrap .notice-bd{
+    width: 290px;
+    height: 65px;
+}
+.notice-wrap .notice-bd ul{
+    width: 266px;
+    height: 65px;
+    display: block;
+    margin: 0 auto;
+}
+.notice-wrap .notice-bd .select{
+    width: 260px;
+    display: block;
+}
+
+.notice-wrap .notice-bd li a{
+    float: left;
+    line-height: 25px;
+    height: 25px;
+    width: 130px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #3C3C3C;
+}
+.notice-wrap .notice-bd li a:hover{
+    color: #f40;
+}
+
+/*模块*/
+.moudle-wrap{
+    width: 290px;
+    height: 232px;
+    background: #FFF;
+}
+.moudle-wrap li {
+    float: left;
+    width: 70px;
+    height: 75px;
+    border: 1px solid #f4f4f4;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    text-align: center;
+}
+.moudle-wrap a{
+    color: #3C3C3C;
+    display: block;
+    padding-top: 16px;
+    font-size: 12px;
+}
+.moudle-wrap p{
+    padding-top: 6px;
+}
+.moudle-wrap ul li a:hover{
+    color: #F40;
+}
+
+
+/*APP*/
+.app{
+    width: 290px;
+    height: 142px;
+}
+.app h3{
+    display: inline-block;
+    width: 200px;
+    font-size: 14px;
+    padding-left: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.app .more{
+    font-size: 12px;
+    float: right;
+    margin-top: 9px;
+    margin-right: 9px;
+}
+.app .more:hover{
+    color: #f40;
+}
+.app ul{
+    width: 290px;
+}
+.app ul li{
+    display: inline-block;
+    float: left;
+    /*border: 1px solid red;*/
+}
+.app ul li a img{
+    width: 32px;
+    height: 32px;
+    margin: 9px 12px;
+}
+
