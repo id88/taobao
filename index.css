@@ -233,7 +233,6 @@ body {
     display: inline-block;
     /*margin-left: 5px;*/
     float: right;
-    margin-right: 5px;
 }
 .search-nav-wrap .search-nav .search-nav-box .search-box-footer .search-hotMore a{
     color: #666;
@@ -308,7 +307,7 @@ body {
 .screen-box-wrap{
     width: 1190px;
     height: 632px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin: 0 auto;
 }
 
@@ -367,6 +366,7 @@ body {
     height: 280px;
     width: 520px;
     margin-top: 5px;
+    margin-left: -6px;
 }
 .main .main-inner .inner-left .inner-left-bottom .bottom-hd{
     height: 30px;
@@ -374,6 +374,7 @@ body {
     color: #666;
     margin-top: 5px;
     border-bottom: 2px solid #ff1648;
+    margin-left: -8px;
 }
 .main .main-inner .inner-left .inner-left-bottom .bottom-hd img{
     float: left;
@@ -388,18 +389,19 @@ body {
     margin-top: 14px;
 }
 .main .main-inner .inner-left .inner-left-bottom .bottom-ft{
-    margin-left: 2px;
+    margin-left: -5px;
     background-color: #fff;
 }
 .main .main-inner .inner-left .inner-left-bottom .bottom-ft img{
     height: 190px;
-    width: 250px;
+    width: 254px;
 }
 .main .main-inner .inner-right{
     width: 168px;
     height: 510px;
     float: right;
     margin-top: 5px;
+    margin-right: 5px;
 }
 .main .main-inner .inner-right img{
     width: 164px;
@@ -417,12 +419,12 @@ body {
 
 /*主屏底部，淘宝头条*/
 .main .main-foot{
-    width: 890px;
+    width: 894px;
     height: 100px;
     background-color: #fff;
     display: inline-block;
     float: left;
-    margin: 5px 5px;
+    margin-top: 5px;
 }
 .main-foot .foot-l img{
     height: 70px;
@@ -446,6 +448,9 @@ body {
     height: 28px;
     line-height: 28px;
     /*border: 1px solid green;*/
+}
+.main-foot .foot-r .toutiao-text li a{
+    color: #808080;
 }
 .main-foot .foot-r .toutiao-text h4:hover{
     color: #ff5000;
@@ -471,10 +476,11 @@ body {
 /*右边开始*/
 .right{
     width: 290px;
-    height: 632px;
+    height: 624px;
     /*background-color: #cfc;*/
     background: #FFF;
     float: right;
+    margin-top: 5px;
 }
 .member-wrap{
     width: 290px;
@@ -660,6 +666,7 @@ body {
     float: right;
     margin-top: 9px;
     margin-right: 9px;
+    color: #3C3C3C;
 }
 .app .more:hover{
     color: #f40;
@@ -678,3 +685,16 @@ body {
     margin: 9px 12px;
 }
 
+
+
+
+
+/*右边浮动菜单*/
+.wrapper-right{
+    width: 50px;
+    height: 400px;
+    position: fixed;
+    float: right;
+    z-index: 9;
+    background-color: red;
+}
