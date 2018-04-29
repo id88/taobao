@@ -1,7 +1,7 @@
 # 仿淘宝首页
 
 ## 效果预览
-<img src="./images/taobao.png"/>
+![淘宝首页效果预览](https://github.com/id88/taobao/raw/master/images/taobao.PNG)
 
 ## 说明
 - 目前只做了淘宝首页的一屏，没有继续做下去的原因有两个：第一，做完第一屏，发现基础还不够牢固。第二，下半部分如果还是只做静态的话基本就是简单的图片堆砌，继续做意义不大。
